@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostPreprocessorConan(ConanFile):
     name = "boost_preprocessor"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-preprocessor"
+    url = "https://github.com/bincrafters/conan-boost_preprocessor"
 
     lib_short_names = ["preprocessor"]
     is_header_only = True
