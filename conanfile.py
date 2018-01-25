@@ -8,7 +8,8 @@ class BoostPreprocessorConan(ConanFile):
     name = "boost_preprocessor"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_preprocessor"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["preprocessor"]
     is_header_only = True
 
