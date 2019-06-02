@@ -4,11 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostPreprocessorConan(base.BoostBaseConan):
     name = "boost_preprocessor"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_preprocessor"
-    lib_short_names = ["preprocessor"]
-    header_only_libs = ["preprocessor"]
+    version = "1.70.0"
